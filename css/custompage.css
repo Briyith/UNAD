@@ -1,0 +1,23 @@
+.site-header {
+    background-color: rgba(37, 37, 37, 0.85);
+    -webkit-backdrop-filter: saturate(180%) blur(20px);
+    backdrop-filter: saturate(180%) blur(20px);
+  }
+  .site-header a {
+    color: #999;
+    transition: ease-in-out color .15s;
+  }
+  .site-header a:hover {
+    color: #fff;
+    text-decoration: none;
+  }
+  .container {
+    max-width: 960px;
+  }
+
+  .card-img-top{
+      width: 250px;
+      height: 150px;
+      align-content: center;
+      padding-left: 20px;
+  }

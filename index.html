@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en">
+<html lang="es">
   <head>
     <!-- Required meta tags -->
     <meta charset="utf-8">
@@ -8,15 +8,68 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
 
-    <title>UNAD</title>
+    <!---->
+    <link rel="stylesheet" type="text/css" href="css/custompage.css">
+
+    <title>UNAD - RDBMS</title>
   </head>
   <body>
-    <h1>contenido de la pagina!</h1>
+    <!--Menú-->
+    <nav class="site-header sticky-top py-1">
+      <div class="container d-flex flex-column flex-md-row justify-content-between">
+        <a class="py-2 d-none d-md-inline-block" href="#">Inicio</a>
+        <a class="py-2 d-none d-md-inline-block" href="rdbms.html">Qué son los RDBMS</a>
+        <a class="py-2 d-none d-md-inline-block" href="instalacion.html">Instalación</a>
+        <a class="py-2 d-none d-md-inline-block" href="tsql.html">T-SQL</a>
+      </div>
+    </nav>
+
+  <div class="jumbotron">
+    <div class="container">
+      <h1 class="display-3">Administración de bases de datos</h1>
+      <p>En esta pagina encontraras todo lo relacionado con la administración de las principales bases de datos relacionales.</p>
+    </div>
+  </div>
+
+  <div class="container">
+      <div class="card-deck">
+          <div class="card bg-light mb-4">
+            <img src="imagenes/sqlserver_logo.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">SQL Server</h5>
+              <p class="card-text">Microsoft SQL Server es un sistema de gestión de base de datos relacional, desarrollado por la empresa Microsoft.</p>
+              <a href="#" class="btn btn-primary">Ver Mas</a>
+            </div>
+          </div>
+          <div class="card bg-light mb-4">
+            <img src="imagenes/oracle_logo.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Oracle Database</h5>
+              <p class="card-text">Oracle Database es un sistema de gestión de base de datos de tipo objeto-relacional desarrollado por Oracle Corporation.</p>
+              <a href="#" class="btn btn-primary">Ver Mas</a>
+            </div>
+          </div>
+          <div class="card bg-light mb-4">
+            <img src="imagenes/mysql_logo.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">MySQL</h5>
+              <p class="card-text">MySQL es un sistema de gestión de bases de datos relacional desarrollado por Oracle Corporation.</p>
+              <a href="#" class="btn btn-primary">Ver Mas</a>
+            </div>
+          </div>
+        </div>
+        <!--Twitter UNAD-->
+        <aside class="col-md-4 blog-sidebar">
+            <a class="twitter-timeline" data-lang="es" data-width="350" data-height="400" data-theme="light" href="https://twitter.com/UniversidadUNAD?ref_src=twsrc%5Etfw">Tweets by UniversidadUNAD</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+        </aside>
+  </div>
+
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="jd/jquery-3.3.1.min.js"></script>
-  
-    <script src="js/bootstrap.js"></script>
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="js/bootstrap.min.js"></script>
+
   </body>
 </html>
